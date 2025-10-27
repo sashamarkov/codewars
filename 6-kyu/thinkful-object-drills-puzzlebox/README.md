@@ -1,0 +1,1 @@
+<h2><a href=https://www.codewars.com/kata/587f0871f297a6df780000cd/train/python target="_blank">Thinkful - Object Drills: Puzzlebox</a></h2><h3>6 kyu</h3><p>You're given a mystery <code>puzzlebox</code> object. Examine it to make the tests pass and solve this kata.</p>
