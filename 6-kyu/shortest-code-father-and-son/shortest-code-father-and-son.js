@@ -1,0 +1,1 @@
+sc=s=>[...s].filter(c=>s.includes(c.toLowerCase())&&s.includes(c.toUpperCase())).join('')
