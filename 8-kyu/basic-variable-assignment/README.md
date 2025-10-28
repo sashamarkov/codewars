@@ -1,0 +1,1 @@
+<h2><a href=https://www.codewars.com/kata/50ee6b0bdeab583673000025/train/csharp target="_blank">Basic variable assignment</a></h2><h3>8 kyu</h3><p>This code should store <code>"codewa.rs"</code> as a variable called <code>name</code> but it's not working. Can you figure out why?</p>
