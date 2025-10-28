@@ -1,0 +1,1 @@
+<h2><a href=https://www.codewars.com/kata/59f9796cffe75f9299000025/train/javascript target="_blank">!a == a ?!</a></h2><h3>8 kyu</h3><p>You task to pass only this tests :</p><ul><li><code>a == false</code></li><li><code>!a == false</code></li><li><code>a == !a</code></li></ul>
