@@ -1,0 +1,1 @@
+<h2><a href=https://www.codewars.com/kata/582cd9033c1acf1d45000052/train/shell target="_blank">Bash Basics - While Loop</a></h2><h3>8 kyu</h3><p>Create a simple while loop in bash that prints the numbers 1-20 to stdout.</p><p>It should look like (stdout):</p><pre><code>Count: 1Count: 2...Count: 20</code></pre>
