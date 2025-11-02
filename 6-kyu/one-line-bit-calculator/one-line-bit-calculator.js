@@ -1,0 +1,1 @@
+calculate=(a,b)=>'0b'+a- -`0b${b}`
