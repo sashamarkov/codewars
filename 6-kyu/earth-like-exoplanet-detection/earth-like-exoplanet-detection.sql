@@ -1,0 +1,12 @@
+SELECT object_id 
+  FROM Spectral_logs
+GROUP BY object_id 
+HAVING MAX(CASE WHEN signature = 'CO2_SUPERDENSE' THEN 1 ELSE 0 END) +
+       MAX(CASE WHEN signature = 'SO2_ACIDITY' THEN 1 ELSE 0 END) +
+       MAX(CASE WHEN signature = 'SULFURIC_CLOUDS' THEN 1 ELSE 0 END) < 3
+   AND SUM(CASE WHEN signature = 'O2_ABS'  THEN 1 ELSE 0 END) > 1
+   AND SUM(CASE WHEN signature = 'H2O_VAPOR'  THEN 1 ELSE 0 END) > 1
+   AND SUM(CASE WHEN signature = 'CH4_TRACE'  THEN 1 ELSE 0 END) > 1
+   AND SUM(CASE WHEN signature = 'O3_UV_SHIELD'  THEN 1 ELSE 0 END) > 1
+   AND SUM(CASE WHEN signature = 'CO2_BASELINE'  THEN 1 ELSE 0 END) > 1
+ORDER BY object_id ASC
