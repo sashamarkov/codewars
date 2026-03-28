@@ -1,0 +1,1 @@
+sc=w=>{s=0,t={};for(x of w.split(/[^\w]+/)){l=x.toLowerCase();if(t[l])s++;else{s+=(l.match(/[a-z]/g)||[]).length;t[l]=1}}return s}
