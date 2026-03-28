@@ -1,0 +1,1 @@
+sc=(a,b,c)=>{for(o of'+-*/')for([x,y,z]of[[a,b,c],[a,c,b],[b,c,a]])if(eval(x+o+y)==z)return x+o+y+'='+z;return''}
