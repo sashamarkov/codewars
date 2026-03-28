@@ -1,0 +1,1 @@
+sc=a=>{m=-1/0;for(i=0;i<a.length;i++)for(j=i+1;j<a.length;j++){x=a[i];y=a[j];m=Math.max(m,x+y,x-y,y-x,x*y,y!==0&&x/y,x!==0&&y/x)}return m}
