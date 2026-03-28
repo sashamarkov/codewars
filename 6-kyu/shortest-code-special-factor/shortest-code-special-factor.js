@@ -1,0 +1,1 @@
+sc=n=>[...Array(n+1).keys()].filter(x=>n%x<1&&n.toString(2).includes(x.toString(2)))
