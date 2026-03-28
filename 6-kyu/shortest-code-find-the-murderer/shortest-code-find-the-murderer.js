@@ -1,0 +1,1 @@
+sc=(s,d)=>d.filter(n=>new RegExp('^'+s.replace(/~/g,'.'),'i').test(n)).join(',')
