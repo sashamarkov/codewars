@@ -1,0 +1,1 @@
+const solveIt = (excel, n) => excel.reduce((r, v, i) => r + (v < excel[n] || v === excel[n] && i <= n), 0);
