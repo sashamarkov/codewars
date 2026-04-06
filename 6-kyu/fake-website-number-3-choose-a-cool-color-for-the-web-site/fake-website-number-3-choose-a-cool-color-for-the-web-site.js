@@ -33,7 +33,7 @@ function rgbToHsl(r,g,b) {
       case g: h = (b - r) / d + 2; break;
       case b: h = (r - g) / d + 4; break;
     }
-    h = (h / 6);     
+    h = (h / 6);
   }
   return { h: Math.round(h * 360), s: Math.round(s * 100), l: Math.round(l * 100) };
 }
