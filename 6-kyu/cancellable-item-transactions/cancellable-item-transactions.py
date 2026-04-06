@@ -2,7 +2,7 @@ import re
 ​
 def calculate(price_dict, transaction):
     stacks = {item: [] for item in price_dict}
-    for match in re.finditer(r'(-?\d+)([A-Z])|([A-Z])', transaction, re.I):
+    for match in re.finditer(r'(-?\d+)([A-Z])|([A-Z])', transaction):
         if match.group(3):
             item = match.group(3)
             if stacks[item]:
