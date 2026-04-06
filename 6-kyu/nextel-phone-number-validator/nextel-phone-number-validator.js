@@ -1,0 +1,1 @@
+var isValidNextelPhoneNumber = s => /^\s*\d+\s*\*\s*\d+\s*\*\s*\d+\s*$/.test(s)
