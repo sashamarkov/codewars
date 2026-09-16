@@ -1,0 +1,1 @@
+const whowon = s => s.split(' hit a reversal to ').slice(-2)[0];
