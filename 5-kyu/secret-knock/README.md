@@ -1,0 +1,1 @@
+<h2><a href=https://www.codewars.com/kata/525f00ec798bc53e8e00004c/train/python target="_blank">Secret knock</a></h2><h3>5 kyu</h3><p>Perform the secret knock() to enter...</p>
