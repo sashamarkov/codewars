@@ -1,0 +1,1 @@
+<h2><a href=https://www.codewars.com/kata/688ebdcc54e3bcb6b679cab6/train/bf target="_blank">[BF] Convert number into a boolean</a></h2><h3>8 kyu</h3><p>Given a byte, convert it into a boolean. 0 becomes 0, every other number becomes 1. In this task there are only 256 possible inputs, so all tests are provided right away.</p>
