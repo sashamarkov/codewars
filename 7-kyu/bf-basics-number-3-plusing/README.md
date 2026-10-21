@@ -1,0 +1,1 @@
+<h2><a href=https://www.codewars.com/kata/596f88f359f9e99030000012/train/bf target="_blank">BF basics #3: Plusing</a></h2><h3>7 kyu</h3><p>Plus the two input char as ascii code.</p><p>Don't worry about overflowing.</p>
