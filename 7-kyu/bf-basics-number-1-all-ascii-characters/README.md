@@ -1,0 +1,1 @@
+<h2><a href=https://www.codewars.com/kata/596f80b5f468ae8daa000013/train/bf target="_blank">BF basics #1: All ascii characters</a></h2><h3>7 kyu</h3><p>Write a bf program outputs all the ascii characters(from 0 to 255), begins with 0.</p>
