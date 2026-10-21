@@ -1,0 +1,1 @@
+<h2><a href=https://www.codewars.com/kata/596f7ec359f9e9b017000006/train/bf target="_blank">BF basics #2: Repeat the input</a></h2><h3>7 kyu</h3><p>You'll get one ascii character and an integer <code>a</code> from the input. You should repeat the character <code>a</code> times and output it.</p>
